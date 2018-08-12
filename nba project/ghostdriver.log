@@ -1,0 +1,63 @@
+[INFO  - 2018-07-30T20:08:30.632Z] GhostDriver - Main - running on port 49540
+[INFO  - 2018-07-30T20:08:32.802Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-30T20:08:32.802Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - page.customHeaders:  - {}
+[INFO  - 2018-07-30T20:08:32.802Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-30T20:08:32.802Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55787cd0-9434-11e8-b23b-6151bba332a4
+[ERROR - 2018-07-30T20:08:40.182Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - page.onError - msg: TypeError: undefined is not an object (evaluating 'detail.renderedSize[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-30T20:08:40.182Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - page.onError - stack:
+  (anonymous function) (http://stats.nba.com/player/201935/:1262)
+  dispatchEvent (:0)
+  (anonymous function) (https://s.cdn.turner.com/ads/nba2/adfuel.js:2516)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  $o (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  Pp (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  renderEnded (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  ay (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  iy (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  _ (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-30T20:10:07.887Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - page.onError - msg: TypeError: undefined is not an object (evaluating 'detail.renderedSize[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-30T20:10:07.887Z] Session [55787cd0-9434-11e8-b23b-6151bba332a4] - page.onError - stack:
+  (anonymous function) (http://stats.nba.com/player/203076/:1262)
+  dispatchEvent (:0)
+  (anonymous function) (https://s.cdn.turner.com/ads/nba2/adfuel.js:2516)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  $o (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  Pp (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  renderEnded (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  ay (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  iy (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  Fa (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_235.js:1)
+
+  phantomjs://platform/console++.js:263 in error
